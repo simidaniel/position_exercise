@@ -1,4 +1,89 @@
 nav {
+  text-align: center;
 	padding-left: 60px;
 	padding-right: 60px;
+  background-color: grey;
+  position: relative;
+  width: 945px;
+  height: 60px;
+  margin-left: auto;
+	margin-right: auto;
+  
+}
+
+nav ul {
+  display: inline-block;
+}
+
+.icon {
+ width: 30px;
+ height: 30px;
+ margin-top: 10px;
+ position:absolute;
+left:0;
+top:0;
+ margin-left: 40px
+}
+
+.text {
+position:absolute;
+left:0;
+top:0;
+ margin-left: 40px
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li::after {
+  content: "|";
+  margin-left: 5px;
+}
+
+.cat, .dog {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+.box {
+ 	width: 800px; 
+ 	height: 500px;
+  margin-left: auto;
+	margin-right: auto;
+}
+
+.dotted-box {
+  display: block;
+ 	width: 600px; 
+ 	height: 300px;
+  margin-left: 100px;
+  margin-top: 100px;
+  border: 10px green dotted;
+  position: relative;
+}
+
+.dog {
+  bottom: -70px;
+  left: 450px
+}
+
+.cat {
+  top: -70px;
+  right: 450px
+}
+
+body {
+  background-image: url(https://github.com/simidaniel/position_exercise/blob/gh-pages/images/outerspace_landscape.jpeg?raw=true);
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 800px;
+  background-position: center;
+  margin-top: 200px;
+}
+
+main {
+  padding-top: 90px;
+  min-width: 1000px;
 }
